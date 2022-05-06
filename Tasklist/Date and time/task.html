@@ -1,4 +1,4 @@
-<h5 id="description">Description</h5>
+<h5 id="description" id="description">Description</h5>
 
 <p>In this stage, we will add on another useful feature — the ability to indicate a deadline for a particular task. We will also work on a priority tag feature.</p>
 
@@ -40,11 +40,11 @@ println(dateTime)        // Output 2021-12-31T16:57</code></pre>
 
 <p>Both <code class="language-kotlin">LocalDate</code> and <code class="language-kotlin">LocalDateTime</code> throw an <code class="language-kotlin">IllegalArgumentException</code> exception if the provided date or time data are invalid. They can be used for checking if a provided date is valid (based on leap years, number of days per month, etc.).</p>
 
-<p><div class="alert alert-warning">You can refer to the <a target="_blank" href="https://github.com/Kotlin/kotlinx-datetime" rel="noopener noreferrer nofollow">GitHub overview</a> for more info on Kotlin/kotlinx-datetime. Note that the library is compatible with the Kotlin Standard Library starting from 1.5.0. So, better update Kotlin in your IntelliJ IDE to the latest version.</div></p>
+<p><div class="alert alert-warning">You can refer to the <a target="_blank" target="_blank" href="https://github.com/Kotlin/kotlinx-datetime" rel="noopener noreferrer nofollow">GitHub overview</a> for more info on Kotlin/kotlinx-datetime. Note that the library is compatible with the Kotlin Standard Library starting from 1.5.0. So, better update Kotlin in your IntelliJ IDE to the latest version.</div></p>
 
 <p>Finally, a word of caution. In stage 6, the task list data will be saved in a file in JSON format with the <code class="language-kotlin">Moshi</code> library. While the <code class="language-kotlin">datetime</code> library objects are serializable, to use them with <code class="language-kotlin">Moshi</code>, you need to register an explicit adapter. It is better to use the <code class="language-kotlin">datetime</code> library for date validation but keep the date and time data (in lists, classes, and so on.) as <strong>strings</strong> or <strong>integers</strong>.</p>
 
-<h5 id="objectives">Objectives</h5>
+<h5 id="objectives" id="objectives">Objectives</h5>
 
 <p>The program menu remains the same.</p>
 
@@ -91,7 +91,7 @@ println(dateTime)        // Output 2021-12-31T16:57</code></pre>
 
 <p>Print a year as a four-digit number.</p>
 
-<h5 id="examples">Examples</h5>
+<h5 id="examples" id="examples">Examples</h5>
 
 <p>The greater-than symbol followed by a space (<code class="language-kotlin">&gt; </code>) represents the user input. Note that it's not part of the input.</p>
 

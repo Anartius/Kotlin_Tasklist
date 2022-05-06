@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/670908/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: Mon, 25 Apr 2022 09:56:23 UTC
+update_date: Fri, 06 May 2022 07:50:45 UTC
 stages:
 - id: 1188
   step: 18594
@@ -19,7 +19,7 @@ stages:
   is_completed: true
 - id: 1192
   step: 18598
-  is_completed: false
+  is_completed: true
 - id: 1193
   step: 18599
   is_completed: false
@@ -147,18 +147,50 @@ topics:
   - title: Properties accessors
     theory_id: 10511
   2:
+  - title: Write, compile, and run
+    theory_id: 3739
+  - title: JVM, JRE, and JDK
+    theory_id: 3499
   - title: Computer algorithms
     theory_id: 16547
+  - title: Introduction to Operating systems
+    theory_id: 9704
   - title: The big O notation
     theory_id: 16699
   - title: Data structures
     theory_id: 16927
+  - title: Date and time standards
+    theory_id: 19467
   - title: Nullable and non-nullable types
     theory_id: 7613
   - title: Type system
     theory_id: 9689
   - title: Secondary constructor
     theory_id: 10746
+  - title: Getting substrings
+    theory_id: 8535
+  - title: Processing strings
+    theory_id: 9027
+  - title: Pseudocode
+    theory_id: 15090
+  - title: Pseudocode basics
+    theory_id: 19510
+  - title: Build tools
+    theory_id: 4284
+  - title: Command line overview
+    theory_id: 8977
+  - title: Parameters and Options
+    theory_id: 9746
+  - title: Java Archive
+    theory_id: 4311
+  - title: Gradle basics
+    theory_id: 5075
+  - title: Basic project with Gradle
+    theory_id: 5077
+  - title: Building apps using Gradle
+    theory_id: 7917
+  - title: Dependency management
+    theory_id: 5076
   - title: Stack
     theory_id: 5252
   - title: Call stack
@@ -177,6 +209,8 @@ topics:
     theory_id: 10193
   - title: Data class
     theory_id: 8526
+  - title: Kotlinx datetime library
+    theory_id: 19456
   - title: Errors in programs
     theory_id: 11559
   - title: What is an exception
@@ -187,19 +221,17 @@ topics:
     theory_id: 7601
   - title: Null safety
     theory_id: 7619
+  - title: The try-catch statement
+    theory_id: 10622
+  - title: The try-catch-finally statement
+    theory_id: 11809
   3:
-  - title: Getting substrings
-    theory_id: 8535
-  - title: Processing strings
-    theory_id: 9027
   - title: Jumps and returns
     theory_id: 6165
   4:
   - title: Destructuring declarations
     theory_id: 9047
   5:
-  - title: Introduction to operating systems
-    theory_id: 9704
   - title: Files
     theory_id: 13025
   - title: Functions as objects
