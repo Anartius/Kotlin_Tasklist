@@ -796,6 +796,13 @@ files:
 
 
   learner_created: false
+- name: tasklist.json
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/18599#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">JetBrains
+    Academy</a> to continue learning.
+  time: Tue, 10 May 2022 17:43:01 UTC
 record: -1
